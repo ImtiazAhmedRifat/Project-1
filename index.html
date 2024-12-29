@@ -43,7 +43,7 @@
           </div>
           <div class="flex items-center gap-2">
             <img src="./assets/coin.png" alt="" />
-            <h5 class="font-bold text-xl">5500 BDT</h5>
+            <h5 id="my-balance" class="font-bold text-xl">5500 BDT</h5>
           </div>
         </div>
       </nav>
@@ -75,7 +75,7 @@
               class="flex items-center gap-1 bg-[#F3F3F3] w-28 justify-center p-1 rounded-xl"
             >
               <img src="./assets/coin.png" alt="" />
-              <h5 class="font-semibold text-xl">00 BDT</h5>
+              <h5 id="donation-amount-1" class="font-semibold text-xl">00 BDT</h5>
             </div>
             <h1 class="text-2xl font-bold">
               Donate for Flood at Noakhali, Bangladesh
@@ -94,13 +94,14 @@
               >
               <!-- input-1 -->
               <input
+              id="donation-input-1"
                 type="number"
                 placeholder="Enter Amount"
                 class="input input-bordered w-full my-2"
               />
             </div>
             <!-- donation btn-1 -->
-            <button class="btn btn-primary w-full bg-[#B2F36D] border-none text-black font-semibold text-lg">Donate Now</button>
+            <button id="donation-btn-1" class="btn  w-full bg-[#B2F36D] border-none text-black font-semibold text-lg">Donate Now</button>
           </div>
         </div>
       </div>
@@ -188,5 +189,6 @@
       </div>
       <!-- card-3  ended-->
     </main>
+    <script src="./js/function.js"></script>
   </body>
 </html>
